@@ -1,1 +1,26 @@
 เว็บโดย php 
+
+mongoDB---->Ex.
+
+{
+    "_id" : "1001",
+    "id" : 1001,
+    "no" : 1,
+    "quantity" : 2,
+    "price" : 150.0,
+    "detail_order" : [ 
+        {
+            "menu_name" : "Burgers",
+            "price" : 100.0,
+            "quantity" : 1,
+            "detail" : "ไม่ใส่ผัก"
+        }, 
+        {
+            "menu_name" : "Cocacola",
+            "price" : 50.0,
+            "quantity" : 1,
+            "detail" : "ไม่ใส่น้ำแข็ง"
+        }
+    ],
+    "status" : "finished"
+}
